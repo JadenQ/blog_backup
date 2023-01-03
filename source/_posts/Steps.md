@@ -1,5 +1,7 @@
-# blog_backup
-This is a backup for my blog deployed using gitee.
+---
+title: Hexo和Gitee搭建起的博客
+date: 2022-11-27
+---
 
 ## My Blog Build up
 
@@ -31,6 +33,15 @@ hexo g -d
 
 文章配置https://blog.csdn.net/howareyou2104/article/details/106312703/
 
+#### 删除文章
+
+```
+hexo clean
+hexo g -d
+```
+
+在gitee pages更新
+
 ### 使用Notion部署
 
 https://lailin.xyz/post/notion-markdown-blog.html
@@ -38,3 +49,4 @@ https://lailin.xyz/post/notion-markdown-blog.html
 notionNext https://tangly1024.com/article/notion-next
 
 https://www.bilibili.com/read/cv17300745/
+
